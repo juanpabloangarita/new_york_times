@@ -1,0 +1,134 @@
+/*REINITIALIZE*/
+body {
+	margin: 0;
+}
+p {
+	font-family: "Georgia", sans-serif;
+	line-height: 26px;
+	font-size: 17px;
+
+}
+
+
+/*STYLES*/
+a, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Faustina', serif;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.main a, h1, h2, h3, h4, h5, h6 {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+h1 {
+	font-style: italic;
+}
+
+
+/*SHADOWS AND BOXES*/
+div {
+	display: flex;
+}
+.shell {
+	flex-direction: column;
+	box-shadow: 0 0 3px #bbb;
+	width: 90%;
+	margin: auto;
+}
+header {
+	display: flex;
+	flex-direction: column;	
+	box-shadow: 0 2px 3px 1px #eee;
+}
+.header {
+	box-shadow: 0 0px 2px 0 #bbb;
+}
+
+.main {
+	flex-direction: column;
+	width: 80%;
+	margin: auto;
+	margin-top: 5px;
+}
+
+
+/*HEADER*/
+.header a {
+	padding: 10px;
+}
+.header {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.feed {
+	align-items: center;
+	justify-content: space-between;
+}
+
+button{
+	background-color: #527DA0;
+	border-radius: 4px;
+	color: white;
+	margin: 0 4px;
+	font-weight: bold;
+}
+.element {
+	padding: 4px;
+	align-items: center;
+}
+.element p{
+	font-size: 12px;
+}
+/*.element{
+	border-left: 1px solid #bbb;
+}
+.element:not(:first_child){}  WHY ISN'T IT WORKING?*/
+
+
+/*BODY*/
+
+.title {
+	border-top: 1px solid black;
+	border-bottom: 1px solid rgba(200,200,200,0.5);
+	flex-direction: column;
+	margin: 1px 0 11px 0;
+}
+.subtitle {
+	margin-bottom: 11px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.image {
+	display: flex;
+	flex-direction: column;
+}
+.image p{
+	width: 700px;
+}
+
+.container {
+	flex-direction: row;
+}
+.content {
+	width: 60%;
+	flex-direction: column;
+	padding: 30px 40px 10px 40px;
+}
+.comments {
+	width: 40%;
+	padding: 80px 0 10px 60px;
+	flex-direction: column;
+}
+
+.subtitle a{
+	padding-left: 20px;
+}
+
+/*ICONS*/
